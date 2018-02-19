@@ -3,7 +3,7 @@ public class numerosprimos{
 	public static void main(String[] arg){
 		Scanner sc = new Scanner(System.in);
 		int s;
-		System.out.println("digite el hasta donde quiere que imprman los numeros primos:");
+		System.out.print("digite hasta donde quiere lleguen los numeros primos: ");
 		s = sc.nextInt();
 		for (int j=2;j<=s;j++){
 			int a=0;
